@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  min-height: 480px;
+  height: 100vh;
+  max-height: 560px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: skewY(8deg);
+  transform-origin: 100%;
+  margin-top: -7%;
+  margin-left: -10px;
+}
+
+.background-sky {
+  background: linear-gradient(145deg,#0d47a1,#42a5f5);
+}
+
+.center {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.angular-message {
+  color: #003c8f;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.angular-logo {
+  display: flex;
+  max-width: 400px;
+}
+
+.material-card {
+  max-width: 350px;
+}

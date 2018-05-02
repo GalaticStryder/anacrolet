@@ -96,6 +96,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/cdk@angular/cdk-builds":
+  version "6.0.0-rc.14-29bf024"
+  resolved "https://codeload.github.com/angular/cdk-builds/tar.gz/b9bf6fde2ca648b70b0e1d0071e8f5c9585a3929"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@~6.0.0-rc.8":
   version "6.0.0-rc.8"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-6.0.0-rc.8.tgz#bcd44f2dab07e5a0cf26ff8832743d4acef0df2b"
@@ -156,6 +162,12 @@
 "@angular/language-service@^6.0.0-rc.6":
   version "6.0.0-rc.6"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.0-rc.6.tgz#bec6be40d111aeb1506adbc7d84e5243dda16bf5"
+
+"@angular/material@angular/material2-builds":
+  version "6.0.0-rc.14-29bf024"
+  resolved "https://codeload.github.com/angular/material2-builds/tar.gz/9441a471f10352d037419151cc11b66b12a4a7d7"
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@^6.0.0-rc.6":
   version "6.0.0-rc.6"
@@ -6161,7 +6173,7 @@ tsickle@^0.27.2:
     source-map "^0.6.0"
     source-map-support "^0.5.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
 
